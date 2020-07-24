@@ -2,7 +2,7 @@ import React from "react";
 import WeatherSearch from "../weather_search/WeatherSearch";
 import axiosInstance from "../../config/axios_config";
 import LongInfo from "../LongInfo/LongInfo";
-import ListWeight from "../ListWeather/ListWeather";
+import ListWeather from "../ListWeather/ListWeather";
 import "./LandingPage.css";
 class LandingPage extends React.Component {
   constructor(props) {
@@ -52,7 +52,7 @@ class LandingPage extends React.Component {
           </div>
           <div>
             {this.state.data.list.length > 0 && (
-              <ListWeight
+              <ListWeather
                 list={this.state.data.list}
             
               />

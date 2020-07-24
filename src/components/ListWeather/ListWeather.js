@@ -2,7 +2,7 @@ import React from "react";
 import CardBackground from "../weather_card/CardBackground";
 import "./ListWeather.css";
 
-class ListWeight extends React.Component {
+class ListWeather extends React.Component {
   render() {
     const list = this.props.list || [];
     return (
@@ -14,7 +14,7 @@ class ListWeight extends React.Component {
             return (
               <CardBackground>
                 <div className="span">
-                  <span>07.24</span> <br/>
+                  <span>07.24</span> <br />
                   <span>09:00</span>
                 </div>
                 <img className="imgHeight" src={imageUrl} />
@@ -27,4 +27,4 @@ class ListWeight extends React.Component {
     );
   }
 }
-export default ListWeight;
+export default ListWeather;
