@@ -1,0 +1,6 @@
+.column {
+  bottom: 0;
+  width: 100%;
+  padding-top: 250px;
+  transition: top 0.3s;
+}

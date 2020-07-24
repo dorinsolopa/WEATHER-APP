@@ -1,0 +1,6 @@
+.sys {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding-left: 50px;
+}

@@ -1,0 +1,17 @@
+.flex1 {
+  display: flex;
+  flex-direction: row;
+}
+.listWeather {
+  margin-left: 50px;
+  margin-bottom: 25px;
+  color: white;
+
+}
+.imgHeight {
+  height: 60px;
+  padding: 35px;
+}
+.span {
+  padding: 15px;
+}
